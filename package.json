@@ -1,0 +1,39 @@
+{
+    "name": "patel-theme",
+    "displayName": "Patel Theme",
+    "description": "Official theme by Anuj Patel",
+    "version": "1.0.0",
+    "publisher": "AnujPatel",
+    "author": {
+        "name": "Anuj Patel",
+        "email": "anujpatel7380@gmail.com"
+    },
+    "icon": "images/logo.jpg",
+    "keywords": [
+        "Patel Theme",
+        "pateltheme",
+        "Anuj Patel",
+        "anujpatel",
+        "VSCode",
+        "themes"
+    ],
+    "scripts": {
+        "bundle": "vsce package",
+        "publish": "vsce publish"
+    },
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Patel Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/patel.json"
+            }
+        ]
+    }
+}

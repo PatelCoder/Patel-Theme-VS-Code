@@ -1,0 +1,1 @@
+# Patel Theme for Visual Studio Code
